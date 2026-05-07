@@ -18,8 +18,8 @@ export default function CartaPage() {
   useSeo({
     title: 'Carta · Brunch, Focaccias y Tartas Artesanales · Ottimo Bakery Madrid',
     description: 'Carta de Ottimo Bakery: Brunch Box italiano (45€), 7 focaccias gourmet pugliesas y 13 tartas artesanales por encargo. Entrega a domicilio en Madrid.',
-    canonical: 'https://ottimobakery.es/carta',
-    image: 'https://ottimobakery.es/assets/brunch_3.png',
+    canonical: 'https://ottimobakery.vercel.app/carta',
+    image: 'https://ottimobakery.vercel.app/assets/brunch_3.png',
   });
 
   useLayoutEffect(() => {

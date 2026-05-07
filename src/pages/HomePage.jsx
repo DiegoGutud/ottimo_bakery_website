@@ -22,8 +22,8 @@ export default function HomePage() {
   useSeo({
     title: 'Ottimo Bakery · Pastelería Italiana Artesanal en Madrid',
     description: 'Pastelería italiana artesanal en Villa de Vallecas, Madrid. Focaccias pugliesas, brunch box, tartas por encargo y bollería italiana hecha a mano. Pedidos a domicilio.',
-    canonical: 'https://ottimobakery.es/',
-    image: 'https://ottimobakery.es/assets/focaccia_main.jpg',
+    canonical: 'https://ottimobakery.vercel.app/',
+    image: 'https://ottimobakery.vercel.app/assets/focaccia_main.jpg',
   });
 
   useLayoutEffect(() => {
