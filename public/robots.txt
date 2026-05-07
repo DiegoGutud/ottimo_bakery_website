@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://ottimobakery.es/sitemap.xml
+Sitemap: https://ottimobakery.vercel.app/sitemap.xml
