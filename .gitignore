@@ -1,0 +1,98 @@
+# ─────────────────────────────────────────────
+# Dependencies
+# ─────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# ─────────────────────────────────────────────
+# Build output
+# ─────────────────────────────────────────────
+dist/
+dist-ssr/
+build/
+out/
+.vite/
+.cache/
+.parcel-cache/
+*.tsbuildinfo
+
+# ─────────────────────────────────────────────
+# Environment / secrets — never commit these
+# ─────────────────────────────────────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.local
+
+# ─────────────────────────────────────────────
+# Logs
+# ─────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ─────────────────────────────────────────────
+# Test / coverage
+# ─────────────────────────────────────────────
+coverage/
+.nyc_output/
+
+# ─────────────────────────────────────────────
+# Deployment platform metadata
+# ─────────────────────────────────────────────
+.vercel/
+.netlify/
+.firebase/
+.serverless/
+
+# ─────────────────────────────────────────────
+# Editors / IDEs
+# ─────────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+
+# ─────────────────────────────────────────────
+# OS files
+# ─────────────────────────────────────────────
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+# Linux
+.directory
+.Trash-*
+
+# ─────────────────────────────────────────────
+# Temporary / scratch files
+# ─────────────────────────────────────────────
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+*.old
